@@ -12,4 +12,5 @@ jobs:
         with:
           mirror-repo: git@github.com:mattihe/mirror-action-v2-test.git
           ssh-private-key: ${{ secrets.SSH_MIRROR_KEY }}
+          refspec: main
 
